@@ -10,5 +10,5 @@ Rather than fine-tuning a massive end-to-end deep neural network, this project l
 
 * **Multi-Perspective Feature Extraction:** Combines lightweight spatial geometry (MobileNetV2) with fine-grained pattern recognition (DenseNet121 / EfficientNetV2).
 * **Hybrid Architecture:** Replaces dense deep learning heads with an RBF SVM to prevent overfitting on medical image representations.
-* **Model Optimization:** Reduced parameter footprint by ~60% (from ~25.7M down to ~10.5M params) while maintaining high accuracy and low CPU inference latency.
+* **Model Optimization:** Reduced parameter footprint by ~60% (from ~25M down to 9.29M params) while maintaining high accuracy and low CPU inference latency.
 * **Class Imbalance Handling:** Implements balanced class weights for both training and cost-sensitive classification.
